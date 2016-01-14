@@ -1,0 +1,46 @@
+package heap;
+
+public class Tuple{
+byte[] array;
+
+int length;
+
+
+public Tuple(){
+length=1024;
+this.array =new byte[length];
+
+this.array =array;
+
+
+}
+
+public Tuple(byte[] array, int zero ,int length){
+
+this.length=length;
+
+this.array =new byte[length];
+
+this.array =array;
+
+
+
+
+
+
+}
+public int getLength (){
+return length;
+
+}
+
+public byte[] getTupleByteArray(){
+return array;
+
+}
+
+
+
+
+
+}
